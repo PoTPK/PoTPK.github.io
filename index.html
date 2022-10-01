@@ -6,12 +6,12 @@
  
 </div>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1" style="max-width: 100%;">
     <title></title>
-    <link rel="stylesheet" href="css/style1.css">
+    <link rel="stylesheet" href="/index.css/style1.css">
     <link
     rel="stylesheet"
-    href="https://fonts.google.com/specimen/Inter+Tight"
+    href="https://fonts.google.com/noto/specimen/Noto+Sans";
 >
   </head>
   <body>
@@ -19,111 +19,130 @@
    
   <ul>
         <div>
-      <li class="menu"></li>
-      <li> <a href="">La conferencia</a> </li>
+      <li class="menu"></li> 
+      <div class="col d-flex align-items-center">
+      <img src="Imagen/codoacodo.png" class="codoacodo" style="height: 85px; width: 140px;">
+      <large><div class="CONF" style="color: white;">Conf Bs As </div> </large>
+      <li class="barra"> <a href="">La conferencia</a> </li>
       <li>  <a href="">Los oradores</a> </li>
       <li>  <a href="">El lugar y la fecha</a> </li>
       <li>  <a href="">Conviertete en orador</a> </li>
       <li>  <a href="">Comprar tickets</a> </li>
         </div>
+      </div>
    </ul>
+  </div>
 <section>
 
-    <div class="card text-bg">
-        <img src="Imagen/hawaii.jpg" class="card-img" alt="...">
-        <div class="card-img-overlay">
-            <div class="Textocard">
-                <div class="col align-self-end">
-                    <h5 class="card-title">Bs As Octubre</h5>
-                    <p class="card-text">Bs As llega por primera vez a Argentina. Un evento para compartir con nuestra comunidad
-                      el conocimiento y experiencia de los expertos que estan creando el futuro de Internet .</p>
-                    <p class="card-text"><small>Last updated 3 mins ago</small></p>
-                  </div>
-                  <span class="botonorador">Quiero ser orador</span>
-                  <span class="botontickets">Comprar Tickets</span>
+    <div class="card text-bg" style= "height: 10%; width: 100%; font-size: 60vh;">
+        <img src="Imagen/hawaii.jpg" class="card-img" alt="..." style="filter: brightness(40%)">
+        <div id="TEXTOPRIMERACARTA" class="card-img-overlay">
+                 <h4 class="card-title">CONF BUENOS AIRES</h4>
+                    <p id="p-start" class="card-text" style="font-size: medium;">Bs As llega por primera vez a Argentina. Un evento para compartir con <br>nuestra comunidad
+                      el conocimiento y experiencia de los expertos que <br>estan creando el futuro de Internet. Ven a conocer a miembros del <br>
+                    evento, a otros estudiantes de Codo a Codo y los oradores de primer <br> nivel que tenemos para tí. Te esperamos!</p>
+                    
+                  <button type="button" class="btn btn-outline-light">Quiero ser orador</button>
+                  <button type="button" id="tickets" class="btn btn-success">Comprar Tickets</button>
+                  
         </div>
       </div>
     </div>
-    
-
- 
-</section> 
+  </div>
+</section>
+<div class="sub-t" style="font-size: 15px;"> <p> CONOCE A LOS <br></p>
+  <b> <p class="sub-t-2" style="font-size: 25px;">ORADORES</b></p> </div>
 <div class="card-group">
+
     <div class="card">
-      <img src="/Imagen/steve.jpg" class="card-img-top" alt="...">
+      <img src="/Imagen/steve (3) (1).jpg" class="card-img-top" alt="...">
       <div class="card-body">
-        <h5 class="card-title">Card title</h5>
+        <button type="button" class="btn btn-warning btn-sm"><b>JavaScript</b></button>
+        <button type="button" class="btn btn-info btn-sm" style="color: white;"><b>React</b></button>
+        <h5 class="card-title"><b>Steve Jobs</b></h5>
         <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
       </div>
     </div>
     <div class="card">
-      <img src="/Imagen/bill.jpg" class="card-img-top" alt="...">
+      <img src="/Imagen/bill (1).jpg" class="card-img-top" alt="...">
       <div class="card-body">
-        <h5 class="card-title">Card title</h5>
+        <button type="button" class="btn btn-warning btn-sm"><b>JavaScript</b></button>
+        <button type="button" class="btn btn-info btn-sm" style="color:white"><b>React</b></button>
+        <h5 class="card-title"><b>Bill Gates</b></h5>
         <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+       
       </div>
     </div>
     <div class="card">
-      <img src="/Imagen/ada.jpeg" class="card-img-top" alt="...">
+      <img src="/Imagen/ada (1).jpeg" class="card-img-top" alt="...">
       <div class="card-body">
-        <h5 class="card-title">Card title</h5>
+        <button type="button" class="btn btn-secondary btn-sm"><b>Negocios</button></b>
+        <button type="button" class="btn btn-danger btn-sm"><b>StartUps</button></b>
+        <h5 class="card-title"><b>Ada Lovelace</b></h5>
         <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
       </div>
     </div>
   </div>
 
-  <div class="card mb-3" style="max-width: 90%;">
+  <div id="CARDVIAJE" class="card mb-3" style="max-width: 90%;">
     <div class="row g-0">
       <div class="col-md-6">
         <img src="/Imagen/honolulu.jpg" class="img-fluid rounded-start" alt="ImagenPlaya">
       </div>
-      <div class="col-md-6">
+      <div class="col-md-5">
         <div class="card-body">
-          <h4 class="card-title">Card title</h4>
+          <h4 class="card-title"><b>Bs As Octubre</b></h4>
           <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          <button type="button" id=conocemas class="btn btn-outline-light">Conocer más</button>
         </div>
       </div>
     </div>
   </div>
 
+  <div class="ORADOR">
+  <div class="conviertete">
+   conviertete en un <br>
+   <b> orador </b><br></div> 
+    <div class="form-3" style="letter-spacing: 1px;"><p>Anótate como orador para dar una charla ignite. Cuéntanos de que quieres hablar!</p>
+  </div>
+  </div>
 
-  <div class="container text-center">
-      <div class="col">
-        <form action="/action_page.php">
-            <label for="fname">First name:</label><br>
-            <input type="text" id="fname" name="fname" value="John">
-      </div>
-      <div class="col">
-        <label for="lname">Last name:</label></form><br>
-        <input type="text" id="lname" name="lname" value="Doe">
-      </div>
+  <section>
+  <div  id="formulario" class="row">
+    <div class="col">
+      <input type="text" class="form-control" placeholder="Nombre" aria-label="First name">
     </div>
-  <div class="mb-5">
+    <div class="col">
+      <input type="text" class="form-control" placeholder="Apellido" aria-label="Last name">
+    </div>
+  </div>
+  <div id=formulario class="mb-5">
     <label for="exampleFormControlTextarea1" class="form-label"></label>
     <textarea class="form-control" id="exampleFormControlTextarea1"> ¿Sobre qué quieres hablar?</textarea>
+    <div class="subtitulo" style="letter-spacing: 1px;">
+      <p>Recuerda incluir un título para tu charla.</p>
+      <div class="d-grid gap-2">
+        <button id="botonenviar" class="btn btn-primary" type="button">Enviar</button>
+        </div>
   </div>
+</section>
 
-  <div>
-<p>Recuerda incluir un título para tu charla.</p>
-  </div>
+
 
 
   <footer>
     <ul>
         <div>
-      <li class="menu"></li>
-      <li> <a href="">Preguntas frecuentes</a> </li>
+      <li id=menuinferior class="menu"></li>
+      <li>  <a href="">Preguntas frecuentes</a> </li>
       <li>  <a href="">Contáctanos</a> </li>
       <li>  <a href="">Prensa</a> </li>
       <li>  <a href="">Conferencias</a> </li>
       <li>  <a href="">Términos y condiciones</a> </li>
       <li>  <a href="">Privacidad</a> </li>
       <li>  <a href="">Estudiantes</a> </li>
-    
+      </div>
+      </div>
         </div>
         </div>
    </ul>
