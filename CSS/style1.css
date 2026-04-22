@@ -21,10 +21,9 @@ html,body {
     padding-left: 12%;
 }
 
-.row
-{
-    background-color: rgb(58, 57, 57);
-    color:#faf3fd;
+.mi-row {
+  background-color: rgb(58, 57, 57);
+  color: #faf3fd;
 }
 
 ul {
