@@ -74,4 +74,26 @@ footer menu {
     margin: 10em;
     padding: 10em 10em 10em;
 }
-   
+
+#TEXTOPRIMERACARTA {
+  text-align: center;
+  padding: 15px;
+  max-width: 90%;
+  margin: auto;
+}
+
+.card-img-overlay {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@media (max-width: 768px) {
+  #TEXTOPRIMERACARTA h4 {
+    font-size: 20px;
+  }
+
+  #TEXTOPRIMERACARTA p {
+    font-size: 14px;
+  }
+}
