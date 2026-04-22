@@ -7,18 +7,15 @@ html,body {
 }
 
 .Textocard
+
 {
-    margin: 35%;
-    padding: 5vh;
-    justify-content: flex-end;
-    color:#faf3fd;
+    margin: 0;
+    padding: 20px;
 }
 
-.card-group
-{
-    margin-block-start: 3%;
-    padding-right: 12%;
-    padding-left: 12%;
+
+.card-group {
+    padding: 10px;
 }
 
 .row
@@ -35,8 +32,14 @@ ul {
     background-color: rgb(94, 88, 88);
 }
         
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+        
 li {
-    float: right;
+    float: none;
 }
   
 li a, .dropbtn {
@@ -68,10 +71,7 @@ footer menu {
 }
 
 .mb {
-    display: inline-block;
-    align-items: center;
-    justify-content: center;
-    margin: 10em;
-    padding: 10em 10em 10em;
+    margin: 20px;
+    padding: 20px;
 }
    
