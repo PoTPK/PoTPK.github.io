@@ -63,9 +63,9 @@ footer menu {
 
 #TEXTOPRIMERACARTA {
   position: absolute;
-  top: 50%;
+  top: 30%;   /* 🔥 más arriba */
   right: 10%;
-  transform: translateY(-50%);
+  transform: none; /* 🔥 sacamos el centrado */
   max-width: 500px;
   text-align: right;
   color: white;
