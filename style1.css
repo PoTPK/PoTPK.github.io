@@ -24,23 +24,6 @@ html,body {
     color:#faf3fd;
 }
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: rgb(94, 88, 88);
-}
-        
-ul {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-end;
-}
-        
-li {
-    float: none;
-}
   
 li a, .dropbtn {
     display:inline-block;
@@ -49,12 +32,6 @@ li a, .dropbtn {
     padding: 10px 10px;
     text-decoration: none;
 }
-
-li a:hover, .dropbtn {
-    color: #faf3fd;
-}
-
-
 
 
 footer menu {
@@ -73,10 +50,15 @@ footer menu {
 .mb {
     margin: 20px;
     padding: 20px;
-}
 .card-img {
-  height: 60vh;
+  height: 70vh;
   object-fit: cover;
+}
+
+@media (max-width: 768px) {
+  .card-img {
+    height: 50vh;
+  }
 }
 
 #TEXTOPRIMERACARTA {
@@ -86,9 +68,13 @@ footer menu {
 }
 
 @media (max-width: 768px) {
-  .card-img {
-    height: 70vh;
+  #TEXTOPRIMERACARTA {
+    position: static;
+    transform: none;
+    text-align: center;
+    padding: 20px;
   }
+}
 
   #TEXTOPRIMERACARTA h4 {
     font-size: 20px;
@@ -98,17 +84,13 @@ footer menu {
     font-size: 14px;
     line-height: 1.3;
   }
-    #TEXTOPRIMERACARTA {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-
-  padding: 20px;
-  text-align: center;
-
-  max-width: 600px;
-  margin: auto;
+  #TEXTOPRIMERACARTA {
+  position: absolute;
+  top: 50%;
+  right: 5%;
+  transform: translateY(-50%);
+  max-width: 500px;
+  text-align: right;
 }
 
 
