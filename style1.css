@@ -18,7 +18,7 @@ html,body {
     padding: 10px;
 }
 
-.row
+.mi-row
 {
     background-color: rgb(58, 57, 57);
     color:#faf3fd;
@@ -73,5 +73,30 @@ footer menu {
 .mb {
     margin: 20px;
     padding: 20px;
+}
+.card-img {
+  height: 60vh;
+  object-fit: cover;
+}
+
+#TEXTOPRIMERACARTA {
+  max-width: 600px;
+  margin: auto;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .card-img {
+    height: 70vh;
+  }
+
+  #TEXTOPRIMERACARTA h4 {
+    font-size: 20px;
+  }
+
+  #TEXTOPRIMERACARTA p {
+    font-size: 14px;
+    line-height: 1.3;
+  }
 }
    
